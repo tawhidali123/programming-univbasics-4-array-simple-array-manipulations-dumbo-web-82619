@@ -31,7 +31,7 @@ def using_insert(array, element)
 end
 
 def using_uniq(array)
-  array.using_uniq
+  array.uniq
 end
 
 def using_flatten(array)
@@ -39,11 +39,11 @@ def using_flatten(array)
 end
 
 def using_delete(array, string)
-  array.delte(string)
+  array.delete(string)
 end
 
 def using_delte_at(array, integer)
-  array.delete[integer]
+  array[integer].delete
 end
 
 
